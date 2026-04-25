@@ -1,10 +1,11 @@
+package UpperFolder;
 import java.util.Scanner;
 
 public class CalcUsingMethod {
 
 
 
-    int addition(int a, int b) {
+  public  int addition(int a, int b) {
         int add = a + b;
         return add;
 

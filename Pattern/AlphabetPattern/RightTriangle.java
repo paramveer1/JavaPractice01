@@ -1,4 +1,6 @@
 package Pattern.AlphabetPattern;
+import java.util.Scanner;
+
 
 public class RightTriangle {
     public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class RightTriangle {
             }
             System.out.println();
         }
+        CalcUsingMethod 
     }
     
 }
