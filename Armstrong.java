@@ -14,7 +14,7 @@ public class Armstrong {
         temp = n;
         int arm = 0;
         for(int i = 1;i<= count;i++){
-            int rem = temp%10;
+            int rem = temp%10; //irfifrilk
             int mul = 1;
             for(int j = 1;j<= count;j++){
                 mul = mul*rem;

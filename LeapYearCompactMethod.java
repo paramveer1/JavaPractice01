@@ -1,4 +1,6 @@
 import java .util. Scanner ; 
+
+// 2400  and 2800
 public class LeapYearCompactMethod {
     public static void main(String[] args) {
         System.out.println("Enter number to check Leap Year");
