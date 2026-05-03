@@ -14,7 +14,7 @@ class Employee {
 
 }
 
-class Demo {
+public class Demo {
     public static void main(String[] args) {
             Employee e1 = new Employee(1, "param", 2);
             Employee e2 = new Employee(2, "Deepa", 3);
