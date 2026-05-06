@@ -1,39 +1,30 @@
 package Demo;
-import UpperFolder.CalcUsingMethod;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.Scanner;
+import java.util.Stack;
 
 
 public class Demo {
     
     public static void main(String[] args) {
+
+        Stack st = new Stack();
+        st.push(8);
+        st.add(55);
+        st.push("hello");
+        System.out.println(st);
         
-            // FileReader fr = new FileReader("Demo/Demo.java");
-            Demo d = new Demo();
-            d.ok();
-           
+        System.out.println(st.peek());
+
 
         
+         
         
-           
-        
-        // try{
-        //    Class.forName("Array.Demo");
-       
-        // }
-        // catch(ClassNotFoundException e){
-        //     System.out.println("Exception handledddddd");
-        // }
        
 
     
     }
 
 
-    void ok() throws ArithmeticException{
-
-    }
+   
     
 }
