@@ -6,7 +6,7 @@ public class Employee implements Comparable {
     String name;
     Employee(int id,String name,int age){
         super();
-        this.age = age;
+        this.id = id;
          this.name = name;
          this.age = age;
 
@@ -15,7 +15,7 @@ public class Employee implements Comparable {
     public int compareTo(Object o) {
      Employee e  =   (Employee)o;
      
-        return id - e.id ;
+        return   id -e.id ;
     }
 
     @Override
