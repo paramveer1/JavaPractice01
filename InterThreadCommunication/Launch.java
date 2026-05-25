@@ -6,7 +6,7 @@ public class Launch {
         MyThread myThread = new MyThread(printer);
                 MyThread myThread2 = new MyThread(printer);
                 myThread.setName("Sender");
-                                myThread2.setName("Receiver");
+                                myThread2.setName("Receiverr");
 
         //   myThread2.setPriority(Thread.MAX_PRIORITY);
         //             myThread.setPriority(Thread.MIN_PRIORITY);
