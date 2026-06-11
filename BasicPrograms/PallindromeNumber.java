@@ -1,3 +1,4 @@
+package BasicPrograms;
 import java.util.Scanner;
 public class PallindromeNumber {
     public static void main(String[] args) {

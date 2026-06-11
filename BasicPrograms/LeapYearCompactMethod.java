@@ -1,3 +1,4 @@
+package BasicPrograms;
 import java .util. Scanner ; 
 
 // 2400  and 2800

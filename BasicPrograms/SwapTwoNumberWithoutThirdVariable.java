@@ -1,3 +1,4 @@
+package BasicPrograms;
 import java.util.Scanner;
 public class SwapTwoNumberWithoutThirdVariable {
     public static void main(String[] args) {

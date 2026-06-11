@@ -1,3 +1,4 @@
+package BasicPrograms;
 public class Switch {
     public static void main(String[] args) {
         int i = 7;

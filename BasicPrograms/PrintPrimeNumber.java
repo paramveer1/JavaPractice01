@@ -1,3 +1,4 @@
+package BasicPrograms;
 import java.util.Scanner;
 public class PrintPrimeNumber {
     public static void main(String[] args) {
