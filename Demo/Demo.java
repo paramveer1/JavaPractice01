@@ -6,17 +6,20 @@ import java.util.Scanner;
 
 
 public class Demo {
-    
-    public static void main(String[] args) {
 
-       Scanner sc = new Scanner(System.in);
-         System.out.println("Enter integer");
-       int i = sc.nextInt();
-       System.out.println("Enter Something");
-       String s2 = sc.nextLine();
-     
-       System.out.println(i);
-              System.out.println(s2);
+ static void demo(int x ){
+    x = 10;
+
+  }
+    public static void main(String[] args) {
+      int x = 5;
+
+      demo(x);
+      System.out.println(x);
+
+
+
+
 
 
 
