@@ -13,10 +13,13 @@ public class SerializationDemo {
         try{
                     FileOutputStream fos = new FileOutputStream("c:/users/pc/desktop/fileio/NewFolder/objectFile");
         ObjectOutputStream  os = new ObjectOutputStream(fos);
+        os.writeObject(e);
+        System.out.println("Serialization successful");
 
 
         }
         catch(IOException o){
+            o.printStackTrace();
             
 
 
