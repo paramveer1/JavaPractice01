@@ -2,7 +2,7 @@ package CollectionFramework;
 
 import java.util.TreeSet;
 import java.util.Set;
-import java.util.Collections;
+// import java.util.Collections;
 
 public class ComparableDemo {
     public static void main(String[] args) {

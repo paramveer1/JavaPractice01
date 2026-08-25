@@ -1,15 +1,17 @@
 package Demo;
+import java.util.Scanner;
 
-public interface Demo {
-    int a = 10 ;
+ public class Demo{
   
-    
-
-    
-} 
-
-class   Ok implements Demo{
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String");
+        sc.next();
+        sc.nextLine();
+        String s =sc.nextLine();
+        System.out.println(s);
+       
+       
     }
-}
+    
+ }
