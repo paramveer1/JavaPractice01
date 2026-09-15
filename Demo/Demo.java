@@ -18,7 +18,7 @@ package Demo;
 
  class Parent {
    int marry(){
-    System.out.println("marry sheela");
+    System.out.println("marry gov employee");
     return 0;
 
   }
@@ -26,7 +26,7 @@ package Demo;
 
  class Child extends  Parent{
  void show(){
-  System.out.println("in child");
+  System.out.println("my crush");
  }
 
  }
